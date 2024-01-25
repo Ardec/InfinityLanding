@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "nuxt": "^3.8.2",
     "vue": "^3.3.13",
     "vue-router": "^4.2.5"
