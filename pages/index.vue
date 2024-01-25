@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-container">
    <!-- INDEX -->
    <Intro />
   </div>
@@ -7,3 +7,9 @@
 
 <script setup>
 </script>
+
+<style lang="scss" scoped>
+.main-container{
+
+}
+</style>

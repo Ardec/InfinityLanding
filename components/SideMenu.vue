@@ -4,8 +4,8 @@
       <div class="button">
         <div class="menu-icon-container" @click="toggleMenu"><Icon class="icon" name="material-symbols:close" /></div>
         </div>
-      <div class="title">K-Development</div>
-      <div class="sub-title">K-Development CoreBase for ERP & CRM</div>
+      <div class="title">InfinityUp</div>
+      <div class="sub-title">Najszybciej rozwijający się przewoźnik taxi we Wrocławiu</div>
     </div>
     <div class="navigation">
         <nav>

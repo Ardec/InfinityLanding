@@ -1,6 +1,6 @@
 <template>
   <div class="topbar">
-    <div class="logo">LogoText</div>
+    <div class="logo"><span class="infinity">Infinity</span><span class="up">Up</span></div>
     <div class="menu"><div class="menu-icon-container" @click="toggleMenu"><Icon class="icon" name="mdi:menu" /></div></div>
   </div>
 </template>
@@ -20,12 +20,23 @@ const { menuVisible, toggleMenu } = useGlobalState();
 .icon{
   font-size:28px;
 }
+.logo{
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+line-height: normal; 
+}
+.infinity{
+  font-weight: 700;
+}
+.up{
+  font-weight: 400;
+}
 
 .topbar{
 background-color: $primary;
 min-width:100%;
 display: flex;
-width: 390px;
 height: 56px;
 padding: 10px 16px;
 justify-content: space-between;
