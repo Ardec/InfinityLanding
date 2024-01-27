@@ -1,6 +1,6 @@
 <template>
   <div class="topbar">
-    <div class="logo"><span class="infinity">Infinity</span><span class="up">Up</span></div>
+    <div class="logo"><span class="infinity">Infiniti</span><span class="up">Up</span></div>
     <div class="menu"><div class="menu-icon-container" @click="toggleMenu"><Icon class="icon" name="mdi:menu" /></div></div>
   </div>
 </template>

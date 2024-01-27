@@ -4,14 +4,14 @@ import { useBaseUrl } from '~/composables/useBaseUrl';
 const baseUrl = useBaseUrl();
 
 useHead({
-  title: 'K-Development CoreBase ERP & CMS',
+  title: 'Praca dla kierowcy Wrocław w InfinitiUp',
   meta: [
-    { name: 'description', content: 'K-Development ERP & CMS CoreBase' }
+    { name: 'description', content: 'Zostań kierowcą taxi we Wrocławiu i zarabiaj razem z nami w InfinitiUp' }
   ],
   bodyAttrs: {
     class: 'test'
   },
-  script: [ { innerHTML: 'console.log(\'K-Development Template\')' } ]
+  script: [ { innerHTML: '' } ]
 })
 
 </script>

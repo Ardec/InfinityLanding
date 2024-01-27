@@ -4,7 +4,7 @@
       <div class="button">
         <div class="menu-icon-container" @click="toggleMenu"><Icon class="icon" name="material-symbols:close" /></div>
         </div>
-      <div class="title">InfinityUp</div>
+      <div class="title">InfinitiUp</div>
       <div class="sub-title">Najszybciej rozwijający się przewoźnik taxi we Wrocławiu</div>
     </div>
     <div class="navigation">
