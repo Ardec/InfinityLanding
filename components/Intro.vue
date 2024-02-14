@@ -16,12 +16,12 @@
         <div class="form-header">
           <div class="form-title">Zostań kierowcą</div>
           <div class="form-paragraph">Zacznij zarabiać już za 24 godziny!</div>
-          <br>
+          <br />
           <div class="form-phone"><a href="tel:603193888">+48 603 193 888</a></div>
           <div class="form-phone"><a href="tel:669849309">+48 669 849 309</a></div>
-          <br>
+          <br />
         </div>
-        <a href="tel:+48500300200">
+        <a href="tel:+48799089866">
           <div class="form-action">
             <div class="form-button">Zadzwoń</div>
           </div>
@@ -32,8 +32,8 @@
       <div class="partners-header">
         <div class="partners-title">Partnerzy</div>
         <div class="partners-paragraph">
-          <span class="bold">Infiniti</span>Up jest oficjalnym partnerem największych
-          przewozników na Polskim tynku transpowym
+          <span class="bold">Infiniti</span>UP jest oficjalnym partnerem największych
+          przewoźników na Polskim rynku transportowym
         </div>
       </div>
       <div class="partners-body">
@@ -43,96 +43,109 @@
       </div>
     </div>
     <div class="points-container">
-         <div class="points-section">
-         <div class="point-icon"><Icon class="icon" size="36" color="black" name="streamline:insurance-hand" /></div>
-      <div class="point-header">Pakiet ubezpieczeń</div>
+      <div class="points-section">
+        <div class="point-icon">
+          <Icon class="icon" size="36" color="black" name="streamline:insurance-hand" />
+        </div>
+        <div class="point-header">Pakiet ubezpieczeń</div>
         <div class="point">Ubezpieczenie zdrowotne</div>
         <div class="point">Ubezpieczenie grupowe</div>
         <div class="point">Ubezpieczenie NNW</div>
-    </div>
-    <div class="points-section">
-      <div class="point-icon"><Icon class="icon" size="36" color="black" name="material-symbols:payments-outline-sharp" /></div>
-      <div class="point-header">0 zł opłat</div>
+      </div>
+      <div class="points-section">
+        <div class="point-icon">
+          <Icon
+            class="icon"
+            size="36"
+            color="black"
+            name="material-symbols:payments-outline-sharp"
+          />
+        </div>
+        <div class="point-header">0 zł opłat</div>
         <div class="point">0 zł za paliwo</div>
         <div class="point">0 zł za samochód</div>
         <div class="point">0 zł za rozliczenie</div>
-    </div>
-    <div class="points-section">
-      <div class="point-icon"><Icon class="icon" size="36" color="black" name="covid:social-distancing-protect-shield-1" /></div>
+      </div>
+      <div class="points-section">
+        <div class="point-icon">
+          <Icon
+            class="icon"
+            size="36"
+            color="black"
+            name="covid:social-distancing-protect-shield-1"
+          />
+        </div>
 
-      <div class="point-header">Pakiet socjalny</div>
+        <div class="point-header">Pakiet socjalny</div>
         <div class="point">Karta multisport</div>
         <div class="point">Konkursy z nagrodami</div>
-    </div>
-    <div class="points-section">
-        <div class="point-icon"><Icon class="icon" size="36" color="black" name="mdi:help-outline" /></div>
-      <div class="point-header">Wsparcie</div>
+      </div>
+      <div class="points-section">
+        <div class="point-icon">
+          <Icon class="icon" size="36" color="black" name="mdi:help-outline" />
+        </div>
+        <div class="point-header">Wsparcie</div>
         <div class="point">Pomoc w uzyskaniu pozwolenia na pracę</div>
         <div class="point">Pomoc z założeniu konta bankowego</div>
         <div class="point">Serwis i Kontakt 24/7</div>
+      </div>
     </div>
-    </div>
- 
 
     <div class="contact">
       <div class="partners-header">
         <div class="partners-title">Kontakt</div>
         <div class="partners-paragraph">
-          <span class="bold">Infinity</span>Up sp z o.o. z siedzibą we Wrocławiu
+          <span class="bold">Infiniti</span>UP Sp z o.o. z siedzibą we Wrocławiu
         </div>
         <div class="partners-paragraph">53-608 Wrocław</div>
-        <div class="partners-paragraph">ul.Robotnicza 40</div>
-        <div class="partners-paragraph">NIP 8992935062 </div>
+        <div class="partners-paragraph">ul. Robotnicza 40</div>
+        <div class="partners-paragraph">NIP 8992935062</div>
         <div class="partners-paragraph">KRS 0000989396</div>
-        <div class="partners-paragraph">
-          kontakt.infinityup@gmail.com
+        <div class="partners-paragraph">kontakt.infinitiup@gmail.com</div>
+        <div class="partners-title">
+          <div class=""><a href="tel:603193888">+48 603 193 888</a></div>
         </div>
         <div class="partners-title">
-                     <div class=""><a href="tel:603193888">+48 603 193 888</a></div>
-        </div>
-          <div class="partners-title">
           <div class=""><a href="tel:669849309">+48 669 849 309</a></div>
         </div>
- 
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.point-icon{
+.point-icon {
   // background-color: $primary;
 }
-.points-container{
-  display:flex;
+.points-container {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding:56px;
-  gap:24px;
+  padding: 56px;
+  gap: 24px;
   justify-content: center;
 }
-.points-section{
-  padding:16px;
-  display:flex;
+.points-section {
+  padding: 16px;
+  display: flex;
   flex-direction: column;
-  color:$primary;
-  gap:24px;
+  color: $primary;
+  gap: 24px;
   // border:solid $primary 1px;
   // border-radius:12px;
-
 }
-.point{
-width:300px;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal; 
+.point {
+  width: 300px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.point-header{
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal; 
+.point-header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .partners-body {
   display: flex;
@@ -275,7 +288,7 @@ line-height: normal;
   width: 100%;
   min-height: 487px;
   padding: 0 16px;
-  gap:24px;
+  gap: 24px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -291,7 +304,7 @@ line-height: normal;
 }
 
 .hero-text {
-  gap:16px;
+  gap: 16px;
   color: $text-primary;
   font-family: Inter;
   font-size: 24px;

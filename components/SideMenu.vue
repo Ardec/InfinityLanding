@@ -11,6 +11,7 @@
         <nav>
        <ul>
           <li><NuxtLink class="menu-item active" to="/" @click="toggleMenu">Home</NuxtLink></li>
+          <li><NuxtLink class="menu-item active" to="/logowanie" @click="toggleMenu">Logowanie</NuxtLink></li>
         </ul>
     </nav>
     </div>
@@ -105,10 +106,11 @@ line-height: 39px; /* 114.706% */
   border-radius: 6px;
   font-size:16px;
   line-height: 24px;
+  transition: opacity 0.8s;
 }
 .menu-item:hover {
   cursor:pointer;
-  opacity:0.6;
+  opacity:0.8;
 
 }
 .active{
@@ -118,6 +120,11 @@ background: var(--Gray-050, #F7F8F9);
 .navigation{
   margin-top:200px;
   padding: 0px 20px;
+}
+.navigation nav ul {
+  display:flex;
+  flex-direction: column;
+  gap:4px;
 }
 .partners{
   padding:0px 20px;
